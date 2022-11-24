@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-color: #ff9900;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  /* max-width: 592px; */
+
+  text-align: center;
+
+  /* height: 100vh; */
+}
+
+.orange-text {
+  color: var(--primary-color);
+}
+
+main {
+  margin: auto;
+}
+
+main img {
+  margin-bottom: 7.2rem;
+}
+
+/* ---- Home ---------------------- */
+#home {
+  width: 592px;
+
+  margin-bottom: 7.2rem;
+  margin: auto;
+}
+
+#home h1 {
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 5.6rem;
+
+  margin-bottom: 3.2rem;
+}
+
+#home h1 span {
+  font-weight: 700;
+}
+
+#home p + p {
+  margin-top: 2.5rem;
+}
+
+#home p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  color: #626262;
+}
+
+.divider {
+  width: 568px;
+  height: 0px;
+
+  border: #eceff2 1px solid;
+  margin: 0 auto 8px;
+}
+
+/* ---- Contact ---------------------- */
+
+#contact {
+  margin-top: 6rem;
+}
+
+#contact .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+#contact .social-links li {
+  list-style: none;
+}
+
+#contact .social-links li a {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+}
+
+.balls-bg {
+  width: 8.6rem;
+  height: 7.8rem;
+
+  background-image: url(../images/balls-bg.svg);
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
